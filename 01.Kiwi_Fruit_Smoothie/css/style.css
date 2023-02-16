@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --clr-green-text: #3f8b00;
+}
+
+html {
+    font-family: "PT Serif" ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.kiwi {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px 40px;
+    gap:40px;
+    width: 1200px;
+    height:600px;
+    background-image: url(../image/image1.png);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.kiwi__title {
+    padding: 0px 20px;
+    font-size: 2.5rem;
+    border-bottom: 2px dotted var(--clr-green-text);
+    
+
+}
+.kiwi__subtitle{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+ul.kiwi__products{
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+ul.kiwi__products span{
+    color: var(--clr-green-text);
+    font-weight: 700;
+}
+.kiwi__prepare{
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+/* table */
+.kiwi__table {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    border-collapse: collapse;
+}
+
+.kiwi__table,
+th,
+td {
+    border: 2px solid var(--clr-green-text);
+}
+.kiwi__table th,.kiwi__table td{
+    padding: 0px 20px;
+    text-align: center;
+    width: 9.67vw;
+}
+.img{
+    background-image: url(../image/kiwi-smoothie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
