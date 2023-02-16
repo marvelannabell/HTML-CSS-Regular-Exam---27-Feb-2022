@@ -1,1 +1,54 @@
-/* TODO */
+@media screen and (max-width:600px) {
+    #top-bar ul:nth-child(1) li:last-child {
+        display: none;
+    }
+
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-menu ul {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #main-menu ul li {
+        text-align: center;
+        border: 1px solid #e43447;
+        width: 20vw;
+    }
+
+    #left-aside {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    #news {
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #news article{
+        width: unset;
+    }
+    #right-aside{
+        width: unset;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{
+        width: unset;
+    }
+}
